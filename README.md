@@ -1,5 +1,5 @@
 # go-lb
-Demonstration of Loadbalacer using Round robin algorithm.
+Demonstration of Load balancer using Round robin algorithm.
 
 
 
