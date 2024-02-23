@@ -45,7 +45,7 @@ func main() {
 
 	roundRobin := NewRoundRobin(servers)
 
-	http.Handle("/your-end-point", roundRobin)
+	http.Handle("/<your-end-point>", roundRobin)
 
 	fmt.Println("Loadbalancer started.")
 
