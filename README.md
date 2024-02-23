@@ -27,15 +27,16 @@ Demonstration of Loadbalacer using Round robin algorithm.
    cd go-lb
    ```
 3.
-    ```sh
-        http.Handle("/<your-end-point>", roundRobin)
-        ** Change the <your-end -point> to the actual endpoint  
+    ```go
+        ** Navigate to main.go
+        ** Change the <your-end -point> to the actual endpoint 
+        http.Handle("/<your-end-point>", roundRobin) 
     ```
-4. 
+4. Build the project
    ```sh
    go build 
    ```
-5. 
+5. Run
    ```sh
    ./go-lb -backend="<server-ip:port>, <server-ip:port>, <server-ip:port>"
    ```
