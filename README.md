@@ -30,7 +30,7 @@ Demonstration of Loadbalacer using Round robin algorithm.
     ```go
     ** Navigate to main.go
     ** Change the <your-end-point> to the actual endpoint 
-    http.Handle("/<your-end-point>", roundRobin) 
+    48. http.Handle("/<your-end-point>", roundRobin) 
     ```
 4. Build the project
    ```sh
